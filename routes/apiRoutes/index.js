@@ -4,5 +4,6 @@ const partyRouter = require('./partyRoutes');
 
 router.use(candidateRouter);
 router.use(partyRouter);
+router.use(require('./voterRouters'));
 
 module.exports = router;
